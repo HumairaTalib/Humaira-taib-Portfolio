@@ -64,6 +64,7 @@ body {
   color: var(--default-color);
   background-color: var(--background-color);
   font-family: var(--default-font);
+  
 }
 
 a {
@@ -589,6 +590,14 @@ section,
 .hero p span {
   letter-spacing: 1px;
   border-bottom: 2px solid var(--accent-color);
+}
+.hero .whatsapp_icon .custom_icon{
+  position:fixed;
+  bottom: 45px;
+  right: 20px;
+  z-index: 4;
+  /* background-color: #df1529; */
+  color: #059652;
 }
 
 .hero .social-links {
