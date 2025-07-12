@@ -231,10 +231,8 @@
 // For Resume button
 
 function downloadResume() {
-  var htmlContent = document.documentElement.outerHTML;
-  var blob = new Blob([htmlContent], {type: 'text/html'});
-  var link = document.createElement('a');
-  link.href = URL.createObjectURL(blob);
-  link.download = 'resume.html';
+  const link = document.createElement('a');
+  link.href = 'assets/img/MY CV.pdf'; // Apne resume ka path diya jaye
+  link.download = 'MY CV.pdf'; // Resume ka naam
   link.click();
 }

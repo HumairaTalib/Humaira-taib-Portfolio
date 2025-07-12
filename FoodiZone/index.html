@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/CSS/bootstrap.css">
+    <link rel="stylesheet" href="./src/CSS/Custom_style.css">
+    <link rel="shortcut icon" href="./src/imgs/icon-fv.png" type="image/x-icon">
+    <title>FoodieZone.in</title>
+</head>
+<body>
+    
+     <!-- header section -->
+     <nav class="navbar sticky-top navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">FoodieZone</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link active" aria-current="page" href="#Home">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#recipes">Recipes</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact-us">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- HeroScetion -->
+    
+      <div class="hero bg-image" id="Home" style="background-image: url('./src/imgs/salad.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;  height: 500px;">
+
+          <div class="row h-100   align-items-center">
+            <div class=" col-md-12   text-center"> 
+              <h1 class="display-1  fw-bold">Welcome to FoodieZone</h1>
+              <p class="lead fs-  fw-bold">Explore Recipes, Cooking Tips and More!</p>
+            </div>
+          </div>
+      
+      </div>
+
+  
+       <!-- Recipes Section -->
+
+     <div class=" py-5" id="recipes">
+      <div class="container">
+        <h2 class="mb-4">Popular Recipes</h2>
+       <div class="row">
+                <!-- Recipe 1 -->
+            <div class="col-md-4 mb-4">
+              <div class="recipe-card card p-2">
+                <h5 class="card-title">🍲 Lentil Vegetable Soup</h5>
+                <p class="card-text">Vegetarian • One-Pot • Freezer-Friendly.</p>
+                <button class="btn btn-primary view-recipe-button" onclick="showRecipe(this)">View Recipe</button>
+                <div class="recipe-details" style="display: none;">
+                        <!-- recipe details here -->
+                        <h6>Ingrediants:</h6>
+                        <ul>
+                          <li>1 cup dry lentils</li>
+                          <li>1 carrot, diced</li>
+                          <li> 2 celery stalks, diced</li>
+                          <li>1 potato, diced</li>
+                          <li>1 can diced tomatoes</li>
+                          <li> 4 cups broth (or water + bouillon)</li>
+                           <li>1 tsp thyme or Italian seasoning</li>
+                        </ul>
+                        <h6>Instructions:</h6>
+                        <ul>
+                          <li>Add all ingredients to a large pot.</li>
+                          <li>ring to a boil, then simmer for 30 minutes.</li>
+                          <li>Season to taste and enjoy with whole grain bread.</li>
+                          <li>Soup is final🍵</li>
+                          
+                        </ul>
+                 </div>
+  
+              </div>
+           </div>
+                <!-- Recipe 2 -->
+           <div class="col-md-4 mb-4 ">
+            <div class="recipe-card card p-2">
+              <h5 class="card-title">🍗Chicken Biryani</h5>
+              <p class="card-text"> Healthy . Everyon's favourite dish!</p>
+              <button class="btn btn-primary view-recipe-button" onclick="showRecipe(this)">View Recipe</button>
+              <div class="recipe-details" style="display: none;">
+                      <!-- recipe details here -->
+                      <h6>Ingrediants:</h6>
+                      <ul>
+                        <li>1 cup basmati rice</li>
+                        <li>1 kg  boneless chicken</li>
+                        <li>2 tablespoon oil</li>
+                        <li>1  🥄 tablespoon cumin seeds</li>
+                      </ul>
+                      <h6>Instructions:</h6>
+                      <ul>
+                        <li>Heat oil in a pan and saute` cumin seeds</li>
+                        <li>Add chicken  and cook until browned.</li>
+                        <li>Add rice & water to the pan and bring to a boil.</li>
+                        <li>Reduce heat and simmer until rice is cooked.</li>
+                        <li>Your biryani is ready to eat😊</li>
+                      </ul>
+               </div>
+
+            </div>
+
+           </div>
+                   <!-- Recipe 3 -->
+            <div class="col-md-4 mb-4 ">
+              <div class="recipe-card card p-2">
+                <h5 class="card-title">🥣Creamy Mac & Veggie Pasta</h5>
+                <p class="card-text">A tasty combinatin of vegetables and macrony.</p>
+                <button class="btn btn-primary view-recipe-button" onclick="showRecipe(this)">View Recipe</button>
+                <div class="recipe-details" style="display: none;">
+                        <!-- recipe details here -->
+                        <h6>Ingrediants:</h6>
+                        <ul>
+                          <li>1 cup small pasta (elbows or shells)</li>
+                          <li>1/2 cup steamed carrots (mashed)</li>
+                          <li>1/2 cup steamed broccoli (chopped small)</li>
+                          <li>2 tbsp milk</li>
+                        </ul>
+                        <h6>Instructions:</h6>
+                        <ul>
+                          <li>Cook pasta and drain.</li>
+                          <li>Mix in mashed veggies, cheese, and milk</li>
+                          <li>Stir on low heat until creamy</li>
+                          <li>Add more milk for smoother texture for toddlers.</li>
+                          <li>Your Yummy Pasta is ready to eat😊</li>
+                        </ul>
+                 </div>
+  
+              </div>
+
+             </div>  
+                   <!-- Recipe 4 -->
+             <div class="col-md-4 mb-4">
+              <div class="recipe-card card p-2">
+                <h5 class="card-title">🥪Turkey & Avocado Roll-Ups</h5>
+                <p class="card-text">No crust • Soft & protein-rich</p>
+                <button class="btn btn-primary view-recipe-button" onclick="showRecipe(this)">View Recipe</button>
+                <div class="recipe-details" style="display: none;">
+                        <!-- recipe details here -->
+                        <h6>Ingrediants:</h6>
+                        <ul>
+                          <li>2 slices whole wheat bread (crust removed)</li>
+                          <li>2 slices turkey </li>
+                          <li>1/4 avocado, mashed</li>
+                        </ul>
+                        <h6>Instructions:</h6>
+                        <ul>
+                          <li>Flatten bread slices with a rolling pin.</li>
+                          <li>Spread avocado, add turkey, roll up, and slice into pinwheels.</li>
+                          <li>✅ Great for lunchboxes and picky eaters.</li>
+                        </ul>
+                 </div>
+  
+              </div>
+           </div>
+                    <!-- Recipe 5-->
+           <div class="col-md-4 mb-4">
+            <div class="recipe-card card p-2">
+              <h5 class="card-title">🍛Creamy Oats with Banana</h5>
+              <p class="card-text">Warm • Easy to swallow • Comforting</p>
+              <button class="btn btn-primary view-recipe-button" onclick="showRecipe(this)">View Recipe</button>
+              <div class="recipe-details" style="display: none;">
+                      <!-- recipe details here -->
+                      <h6>Ingrediants:</h6>
+                      <ul>
+                        <li>1/2 cup oats </li>
+                        <li>1 cup milk or plant milk</li>
+                        <li>1/2 banana, mashed </li>
+                        <li>Dash of cinnamon</li>
+                      </ul>
+                      <h6>Instructions:</h6>
+                      <ul>
+                        <li>Cook oats with milk until soft..</li>
+                        <li>Stir in mashed banana and cinnamon.</li>
+                        <li>✅ Can be eaten warm or cold, ideal for breakfast or a light dinner.li>
+                      </ul>
+               </div>
+
+            </div>
+         </div>
+                  <!-- Recipe 6 -->
+         <div class="col-md-4 mb-4">
+          <div class="recipe-card card p-2">
+            <h5 class="card-title">🥗Chickpea & Spinach Curry</h5>
+            <p class="card-text">Vegan • High-Protein • Pantry-Friendly</p>
+            <button class="btn btn-primary view-recipe-button" onclick="showRecipe(this)">View Recipe</button>
+            <div class="recipe-details" style="display: none;">
+                    <!-- recipe details here -->
+                    <h6>Ingrediants:</h6>
+                    <ul>
+                      <li>1 can chickpeas (drained)</li>
+                      <li> cups spinach (fresh or frozen)</li>
+                      <li>1 can diced tomatoes</li>
+                      <li>1 onion, chopped</li>
+                      <li>2 garlic cloves</li>
+                      <li>1 tbsp curry powder</li>
+                      <li>Salt & pepper to taste</li>
+                      <li>Olive oil</li>
+                    </ul>
+                    <h6>Instructions:</h6>
+                    <ul>
+                      <li>Sauté onion and garlic in oil until soft.</li>
+                      <li>Add curry powder and cook for 1 minute </li>
+                      <li>✅ Can be eaten warm or cold, ideal for breakfast or a light dinner.li>
+                    </ul>
+             </div>
+
+          </div>
+       </div>
+
+        </div> 
+     </div>     
+       </div>      
+
+  <!-- About US Section -->
+ <div class="about-us py-5">
+    <div class="container">
+      <h2 class=" pt-5 pb-0">About FoodieZone</h2>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-6">
+          <p>FoodieZone is a where you'll finf recipes of your favourite dishes! </p>
+          <p>Our mission is to provide people with information about delicious & healthy food. </p>
+          <br>
+          <h3>Our Team</h3> <br>
+          <p>Meet our team of experienced chefs, nutritionists and food bloggers to creating <br>  <br>
+            mouth-watering content for you!</p>
+        </div>
+        <div class="col-md-6">
+          <img src="./src/imgs/about_us.jpg" class="img-fluid ">
+        </div>
+      </div>
+      
+    </div>
+     </div>
+
+ <!-- Contact Section -->
+
+ <div class=" py-5" id="contact-us">
+    <div class="container">
+      <h2 class="mb-4  mt-5">Contact Us</h2>
+      <p>Get in touch with us for any queries, feedback, or recipe suggestions!</p>
+      <div class="row">
+        <div class="col-md-6 col-lg-6">
+          <form>
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary mt-2">Submit</button>
+          </form>
+        </div>
+        <div class="col-md-6 m-0 col-lg-6">
+          <div class="">
+            <h4 class="mb-3"> Contact Information:</h4>
+            <p>Email: <a href="mailto:info@foodiezone.pk">info@foodiezone.pk</a></p>
+            <p>Phone: +92 300 1234567</p>
+            <p>Address: 123 Foodie Street, Gulberg, Lahore, Pakistan</p>
+          </div>
+          <div class="mt-5">
+            <h4>Follow Us:</h4>
+            <a href="#" class="mr-3"><i class="bi bi-facebook bi-2x"></i></a>
+            <a href="#" class="mr-3"><i class="bi bi-instagram bi-2x"></i></a>
+            <a href="#" class="mr-3"><i class="bi bi-twitter bi-2x"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      <!-- Footer Section -->
+
+      <footer class="footer py-4 bg-dark text-white ">
+        <div class="container bg-dark">
+          <div class="row">
+            <div class="col-md-4">
+              <h5>FoodieZone</h5>
+              <p>Explore Recipes, Cooking Tips and More!</p>
+            </div>
+            <div class="col-md-4">
+              <h5>Quick Links</h5>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white">Home</a></li>
+                <li><a href="#" class="text-white">Recipes</a></li>
+                <li><a href="#" class="text-white">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h5>Follow Us</h5>
+              <ul class="list-unstyled">
+                <li><a href="#" class="facebook"><i class="bi bi-facebook fa-2x"></i>Facebook</a></li>
+                <li><a href="#" class="instagram"><i class="bi bi-instagram"></i>Instagram</a></li>
+                <li<a href="#" class="twitter"><i class="bi bi-twitter"></i>Twitter</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-md-12 text-center">
+              <p>&copy; 2025 FoodieZone. All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+<link rel="stylesheet" href="./src/CSS/bootstrap-icons/bootstrap-icons.css">
+    <script src="./src/javascript/bootstrap.js"></script>
+    <script src="./src/javascript/custom java.js"></script>
+</body>
+</html>

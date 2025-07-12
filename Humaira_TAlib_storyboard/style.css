@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary_color:blue;
+    --secondary_color:aqua;
+}
+@font-face {
+    font-family: myfont;
+    src: url(/fonts/EQUALI.ttf);
+}
+
+body {
+    font-family: myfont;
+    letter-spacing: 1px;
+        /* background-color: pink; */
+        background-image: url(/images/dd.jfif);
+        /* background-position: center; */
+        background-repeat: no-repeat;
+        background-size: cover;
+
+}
+
+.story_board {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px 0px;
+    /* border: 2px solid; */
+    position: relative;
+}
+
+#hero_section {
+    margin: auto;
+    max-width: 80%;
+    height: 240px;
+    margin-top: 20px;
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#hero_section h1 {
+    letter-spacing: 2px;
+    color: var(--primary_color);
+    text-shadow: 2px 3px 3px gold;
+    font-size: 3rem;
+    padding-top: 10px;
+
+}
+
+#hero_section h1:hover {
+    color: green;
+} 
+
+.image_box {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    /* border: 2px solid rgb(23, 207, 207); */
+    box-shadow: 0px 0px 11px 2px rgb(5, 241, 241);
+    overflow: hidden;
+    background: linear-gradient(25deg, aqua 40%, rgb(176, 255, 255) 45%);
+    
+}
+/* projects_section _Styling */
+#projects_section{
+    height: 150px;
+    width: 80%;
+    margin:20px auto;
+    /* border: 2px solid; */
+    border-radius: 25px;
+    /* background-color: #51d8a4; */
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+.month_name{
+    font-size: 2rem;
+    color: #920606;
+}
+#projects_section .btn{
+    height: 45px;
+    width: 140px;
+    background-color:rgb(242 155 97);
+    border-radius: 15px;
+    padding-top: 10px;
+
+}
+.projects_detail{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.btn a{
+    text-decoration: none;
+    color: #0a038b;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 22px;
+
+}

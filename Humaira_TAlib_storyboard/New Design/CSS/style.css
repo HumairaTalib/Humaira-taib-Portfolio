@@ -1,0 +1,583 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e3e3e3;
+    font-family:  Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    height: 170vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+    display: inline-block;
+}
+
+.br-20{
+    border-radius: 20px;
+}
+/* First Design Style */
+.firstDesign {
+    margin-left: 20px;
+    /* border: 2px solid black; */
+    width: 25%;
+    height: 155vh;
+    /* background: linear-gradient(360deg, #fefefe 40%, #dbd4d4 100%); */
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.options {
+    /* margin: 0 auto; */
+    width: 80%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.opt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.makeCircle {
+    height: 40px;
+    width: 40px;
+    background-color: #ece6e1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upgrade {
+    text-align: center;
+    height: 250px;
+    width: 90%;
+    border-radius: 20px;
+    /* border: 5px solid #ffffff; */
+    border-bottom: none;
+    background-color: #fefefe;
+    background: linear-gradient(182deg, #fefefe 68%, #f3f3f3 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    line-height: 1.5;
+}
+
+.upgrade>.BoldText {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.button {
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    padding: 14px;
+    border-radius: 40px;
+    background-color: #b5d7f7;
+}
+
+.graytext {
+    color: #8a8079;
+}
+
+.instruction {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 150px;
+}
+
+.align_center {
+    width: 100px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 20px;
+}
+
+.EnlargeItem {
+    width: 195px;
+}
+
+/* SubContainer1 */
+.SubContainer1 {
+    width: 70%;
+    /* border: 2px solid blue; */
+    height: 155vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
+}
+
+.SubContainer2 {
+    /* border: 2px solid red; */
+    height: 135vh;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+/* Second Container Div */
+.SecondDesign {
+    /* border: 2px solid black; */
+    background-color: #fff;
+    width: 97%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: space-around;
+    position: relative;
+}
+
+.imgcircle {
+    height: 80px;
+    width: 80px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    background-color: #f7bcbb;
+    overflow: hidden;
+    display: flex;
+
+}
+
+.name {
+    font-weight: bold;
+}
+
+.PosititonCircle {
+    height: 20px;
+    width: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    background-color: #40c33f;
+    position: absolute;
+    top: 57px;
+    left: 86px;
+}
+
+.onediv {
+    width: 45%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.date {
+    height: 50px;
+    width: 120px;
+    border-radius: 25px;
+    background-color: #f6f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.twodiv {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search {
+    height: 50px;
+    width: 320px;
+    border-radius: 25px;
+    background-color: #f6f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+input {
+    text-decoration: none;
+    border: none;
+    background-color: #f6f6f6;
+}
+
+.icon {
+    background-color: #f6f6f6;
+}
+
+.Pink-Color-position {
+    height: 14px;
+    width: 14px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    background-color: #ff747c;
+    position: absolute;
+    position: absolute;
+    top: 25px;
+    right: 68px;
+}
+
+
+/* THIRD DESIGN START */
+
+.ThirdDesign {
+    /* border: 2px solid black; */
+    background-color: #ffffff;
+    width: 45%;
+    height: 868px;
+}
+
+.redCircle {
+    background-color: #ffefcd;
+}
+
+.Position2 {
+    background-color: #ff747c;
+    position: relative;
+    top: 82px;
+    left: 26px;
+}
+
+.header {
+    height: 260px;
+    width: 380px;
+    margin: 11px auto;
+    border-radius: 20px;
+    background-color: #ededed;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    position: relative;
+}
+
+.partOne {
+    height: 160px;
+    display: flex;
+    /* margin-top: 25px; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.closeLine {
+    position: relative;
+    bottom: 150px;
+    left: 167px;
+}
+
+.partTwo {
+    width: 80%;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.whiteCircle {
+    background-color: #ffffff;
+}
+
+/* bodyPart of Third Design */
+.bodyPart {
+    width: 360px;
+    height: 550px;
+    padding: 10px 0px 10px 30px ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Message {
+    height: 90px;
+    width: 280px;
+    border-radius: 21px 21px 5px 21px;
+    background-color: #e4effa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.MeetappCircle {
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+}
+
+.voicerecording {
+    height: 90px;
+    width: 280px;
+    border-radius: 21px 21px 21px 3px;
+    margin-right: 60px;
+    background-color: #f5f5fb;
+    display: flex;  
+    align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.PositionTHumEmoji{
+    position: absolute;
+    top: 80px;
+    left: 224px;
+    border: 2px solid #fff;
+
+}
+.play-fill-Circle {
+    /* display: flex;
+    align-items: center; */
+    background-color: #b9d9f6;
+}
+.timePosition{
+    font-size: 12px;
+    position: absolute;
+    top: 61px;
+    right: 12px;
+}
+.command {
+    height: 60px;
+    width: 360px;
+    border-radius: 20px;
+    background-color: #ece6e1;
+    margin: 0px auto;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Write-A-Message {
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.longDiv {
+    width: 200px;
+}
+/* start Fourth Design */
+.fourthDesign {
+    width: 100%;
+    height: 420px;
+    /* border: 2px solid orangered; */
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+#keepDistance{
+    width: 370px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.iconicDiv {
+    height: 40px;
+    width: 80px;
+    color: #1647aa;
+}
+
+.BoyCircle {
+    background-color: #9bc286;
+}
+
+.GirL2 {
+    background-color: #e0ddd2;
+}
+
+.GirL3 {
+    background-color: #f0c988;
+}
+
+.SectionChild {
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.infoFlex {
+width: 140px;
+    height: 50px;
+    /* border: 2px solid saddlebrown; */
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ProfileImage{
+    height: 70px;
+    width: 70px;
+}
+#downSection {
+    width: 300px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Fifth Design Start */
+.FifthDesign {
+    width: 100%;
+    height: 420px;
+    /* border: 2px solid orangered; */
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+#SectionTwo {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#SectionThree {
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.Description {
+    height: 60px;
+    width: 420px;
+    border-radius: 20px;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.left {
+    width: 220px;
+    display: flex;
+    /* justify-content: spsace-between; */
+}
+
+.TimePadding {
+    margin-right: 20px;
+}
+
+#SectionFour {
+    /* width: 400px; */
+    display: flex;
+
+}
+
+
+
+.second {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.LastFlex {
+    height: 50px;
+    width: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: center; */
+   
+}
+
+.persons {
+    width: 150px;
+    /* height: 90px; */
+    display: flex;
+position: relative;
+}
+#EndPosition1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#EndPosition2{
+    position: absolute;
+    top: 0px;
+    left: 27px;
+}
+#EndPosition3{
+    position: absolute;
+    top: 0px;
+    left: 55px;
+}
+#EndPosition4{
+    position: absolute;
+    top: 0px;
+    right: 24px;
+}
+#EndPosition5{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.SmallCircle {
+    height: 45px;
+    width: 45px;
+    
+}
+
+.Add-more {
+    background-color: #b5d7f7;
+    text-align: center;
+    font-weight: bold;
+    padding: 8px;
+}
+
+
+
+.SendLink {
+    /* height: 90px; */
+    width: 260px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
